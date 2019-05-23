@@ -1,0 +1,2 @@
+# minifier
+JS/CSS Minifier
