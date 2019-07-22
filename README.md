@@ -10,7 +10,7 @@ All others files will be copied.
 
 ## Using
 ```shell
-sh minifier.sh
+minifier.sh
 ```
 
 ## Options
