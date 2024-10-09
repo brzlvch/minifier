@@ -4,19 +4,15 @@ Minify your JS/CSS files via [YUI Compressor](https://github.com/yui/yuicompress
 
 ## How does this work?
 
-The script searches for JS/CSS files in the source directory and work them through YUI Compressor.
+The script searches for JS/CSS files in the source directory and work them through YUI Compressor
+All others files will be copied
 
-All others files will be copied.
+## Options
+- `version` - path to version log
+- `assets` - path to assets
+- `compressor` - path to YUI Compressor
 
 ## Using
 ```shell
 minifier.sh
 ```
-
-## Options
-- `version` - path to version log
-
-- `assets` - path to assets
-
-- `compressor` - path to YUI Compressor
-
